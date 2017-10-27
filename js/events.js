@@ -18,6 +18,6 @@ function frameIt() {
       img.className += "tasty"
       img.style.borderColor = "red"
 
-    
+
   })
 }
