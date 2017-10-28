@@ -18,7 +18,13 @@ function frameIt() {
       img = $('img')[0]
       img.className += "tasty"
       img.style.borderColor = "red"
+  })
+}
 
-
+function pressIt() {
+  $('form').on('keydown', function(key) {
+    if( key.which === 71)
+      alert("YOU PRESSED G")
+    
   })
 }
