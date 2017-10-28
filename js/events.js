@@ -13,9 +13,9 @@ function getIt() {
 }
 
 function frameIt() {
-  
+
   $('img').on('load', function(){
-      img = $('img')[]
+      img = $('img')[0]
       img.className += "tasty"
       img.style.borderColor = "red"
 
